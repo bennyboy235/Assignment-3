@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Assignment</title>
+    <style>
+        body {
+            background-color: #e0f7fa;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            border-bottom: 3px solid #00796b;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #00796b;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        h3 {
+            font-size: 1.5em;
+            font-weight: normal;
+        }
+        .task1 p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #004d40;
+        }
+        .task1 {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        table {
+            width: 100%;
+            max-width: 1000px;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            font-size: 1rem;
+        }
+        th {
+            background-color: #00796b;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #e0f2f1;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        tr:hover {
+            background-color: #b2dfdb;
+        }
+        a {
+            color: #00796b;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #004d40;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #00796b;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            background-color: #00796b;
+            color: #fff;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        button:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+        button.active {
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: #004d40;
+        }
+        #textField {
+            display: block;
+            margin: 20px auto;
+            padding: 12px;
+            font-size: 1rem;
+            border: 2px solid #00796b;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        #message {
+            margin: 20px 0;
+            font-size: 1.2rem;
+            color: #333;
+            font-weight: bold;
+        }
+        #image-container {
+            margin: 20px 0;
+            height: auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Number: 8895247 | Benjamin Edmunds</h1>
+        <h2>Subject Code: COMP804 | Subject Title: Web Security</h2>
+        <h3>Assignment 3 | Due Date: 19/08/2024</h3>
+
+        <div class="task1">
+            <h2>Task 1: Display Information</h2>
+            <p>Student Number: 8895247</p>
+            <p>Full Name: Benjamin Edmunds</p>
+            <p>Subject Code: COMP804</p>
+            <p>Subject Title: Web Security</p>
+            <p>Assignment 3</p>
+            <p>Due Date: 19/08/2024</p>
+        </div>
+
+        <h2>Task 2: University Key Dates</h2>
+        <table>
+            <tr>
+                <th>Activity</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>First day to enrol for re-enrolling (continuing students)</td>
+                <td>21 Nov 2022</td>
+            </tr>
+            <tr>
+                <td>Orientation</td>
+                <td>18 Jul 2023</td>
+            </tr>
+            <tr>
+                <td>Lectures Commence (weeks 1-9)</td>
+                <td>24 Jul - 22 Sep 2023</td>
+            </tr>
+            <tr>
+                <td>Last day to enrol / add subjects yourself</td>
+                <td>04 Aug 2023</td>
+            </tr>
+            <tr>
+                <td>Last day to enrol / add subjects with Head of Students approval</td>
+                <td>11 Aug 2023</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>CENSUS DATE</strong><br>
+                    <ul>
+                        <li>Fees due</li>
+                        <li>Last day to withdraw from subjects without paying for them</li>
+                        <li>HECS / FEE HELP debt reporting date</li>
+                        <li>Last day to change HECS / FEE HELP billing option</li>
+                    </ul>
+                    <a href="https://www.uow.edu.au/student/dates/"><strong>Learn more about Census date >></strong></a>
+                </td>
+                <td>31 Aug 2023</td>
+            </tr>
+            <tr>
+                <td>Student Services and Amenities Fees Due</td>
+                <td>01 Sep 2023</td>
+            </tr>
+        </table>
+
+        <h2>Task 3: Top 10 Web Attacks</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Web Attack</th>
+            </tr>
+            <tr>
+                <td>
+                    SQL Injection<br>
+                    <img src="sql-injection.png" alt="SQL Injection Image">
+                    <br>Source: <a href="https://portswigger.net/web-security/sql-injection" target="_blank">PortSwigger</a>
+                </td>
+                <td>
+                    SQL Injection involves injecting malicious SQL queries into an input field, exploiting vulnerabilities in the application's database layer. This can allow attackers to view or modify data.
+                    <br><a href="https://owasp.org/www-community/attacks/SQL_Injection" target="_blank">OWASP</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Cross-Site Scripting (XSS)<br>
+                    <img src="xss.jpg" alt="XSS Attack Image">
+                    <br>Source: <a href="https://www.shutterstock.com/shutterstock/photos/2432585743/display_1500/stock-photo-xss-acronym-cross-site-scripting-is-an-attack-in-which-an-attacker-injects-malicious-executable-2432585743.jpg" target="_blank">Shutterstock</a>
+                    <br><a href="https://owasp.org/www-community/attacks/xss/" target="_blank">OWASP</a>
+                </td>
+                <td>
+                    XSS attacks involve injecting malicious scripts into web pages viewed by other users. This can lead to data theft or session hijacking.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Cross-Site Request Forgery (CSRF)<br>
+                    <img src="csrf.jpg" alt="CSRF Attack Image">
+                    <br>Source: <a href="https://www.youtube.com/watch?v=7bTNMSqCMI0" target="_blank">YouTube</a>
+                    <br><a href="https://owasp.org/www-community/attacks/csrf" target="_blank">OWASP</a>
+                </td>
+                <td>
+                    CSRF tricks users into performing actions on behalf of the attacker. This can lead to unauthorized changes or actions performed in the user’s session.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Path Traversal<br>
+                    <img src="path-traversal.png" alt="Path Traversal Image">
+                    <br>Source: <a href="https://www.internetsecurity.tips/wp-content/uploads/2020/09/What-is-path-traversal-and-how-to-prevent-it.png" target="_blank">Internet Security Tips</a>
+                    <br><a href="https://owasp.org/www-community/attacks/Path_Traversal" target="_blank">OWASP</a>
+                </td>
+                <td>
+                    Path Traversal attacks allow attackers to access restricted directories and files on a server by manipulating file paths.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Insecure Deserialization<br>
+                    <img src="insecure-deserialization.jpg" alt="Insecure Deserialization Image">
+                    <br>Source: <a href="https://medium.com/tech-talks/deserialization-attack-what-why-and-how-8402e056e48b" target="_blank">Medium</a>
+                    <br><a href="https://owasp.org/www-community/attacks/Insecure_Deserialization" target="_blank">OWASP</a>
+                </td>
+                <td>
+                    Insecure Deserialization occurs when untrusted data is deserialized, leading to remote code execution or data manipulation.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Broken Authentication<br>
+                    <img src="broken-authentication.png" alt="Broken Authentication Image">
+                    <br>Source: <a href="https://miro.medium.com/v2/resize:fit:1400/1*maDurffbb2bA2K3byz5Ylg.png" target="_blank">Medium</a>
+                    <br><a href="https://owasp.org/www-community/attacks/Broken_Authentication" target="_blank">OWASP</a>
+                </td>
+                <td>
+                    Broken Authentication vulnerabilities allow attackers to compromise user accounts or perform unauthorized actions. This can occur due to weak passwords or poor session management.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Security Misconfiguration<br>
+                    <img src="security-misconfiguration.jpg" alt="Security Misconfiguration Image">
+                    <br>Source: <a href="https://medium.com/@mranarhussain/security-misconfiguration-with-example-owasp-top-10-2-8b423b6711b0" target="_blank">Medium</a>
+                    <br><a href="https://owasp.org/www-community/attacks/Security_Misconfiguration" target="_blank">OWASP</a>
+                </td>
+                <td>
+                    Security Misconfiguration occurs when security settings are improperly configured, leaving systems exposed to attacks.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    API Vulnerabilities<br>
+                    <img src="api-vulnerabilities.png" alt="API Vulnerabilities Image">
+                    <br>Source: <a href="https://appcheck-ng.com/wp-content/uploads/API-Vuln-Sacnning-Pic4.png" target="_blank">AppCheck</a>
+                    <br><a href="https://owasp.org/www-community/attacks/REST_Security_Cheat_Sheet" target="_blank">OWASP</a>
+                </td>
+                <td>
+                    API vulnerabilities involve weaknesses in application programming interfaces, which can lead to data breaches or unauthorized access.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Broken Access Control<br>
+                    <img src="broken-access-control.png" alt="Broken Access Control Image">
+                    <br>Source: <a href="https://media.geeksforgeeks.org/wp-content/uploads/20211208160124/accessControl-660x319.png" target="_blank">Geeks for Geeks</a>
+                    <br><a href="https://owasp.org/www-community/attacks/Broken_Access_Control" target="_blank">OWASP</a>
+                </td>
+                <td>
+                    Broken Access Control vulnerabilities allow unauthorized users to access resources or perform actions beyond their permissions.
+                </td>
+            </tr>
+        </table>
+
+        <h2>Task 4: Interactive Food Buttons</h2>
+        <div class="button-container">
+            <button id="button1">Pizza</button>
+            <button id="button2">Burger</button>
+            <button id="button3">Ice Cream</button>
+        </div>
+        <input type="text" id="textField" readonly>
+        <div id="message"></div>
+        <div id="image-container"></div>
+
+        <script>
+            document.getElementById('button1').addEventListener('click', function() {
+                activateButton(this);
+                document.getElementById('textField').value = 'User clicked Pizza';
+                document.getElementById('message').textContent = 'Pizza is clicked';
+                document.getElementById('image-container').innerHTML = '<img src="pizza.jpg" alt="Pizza">';
+            });
+
+            document.getElementById('button2').addEventListener('click', function() {
+                activateButton(this);
+                document.getElementById('textField').value = 'User clicked Burger';
+                document.getElementById('message').textContent = 'Burger is clicked';
+                document.getElementById('image-container').innerHTML = '<img src="hamburger.jpg" alt="Burger">';
+            });
+
+            document.getElementById('button3').addEventListener('click', function() {
+                activateButton(this);
+                document.getElementById('textField').value = 'User clicked Ice Cream';
+                document.getElementById('message').textContent = 'Ice Cream is clicked';
+                document.getElementById('image-container').innerHTML = '<img src="icreame.jpg" alt="Ice Cream">';
+            });
+
+            function activateButton(button) {
+                var buttons = document.querySelectorAll('.button-container button');
+                buttons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+            }
+        </script>
+
+    </div>
+</body>
+</html>
